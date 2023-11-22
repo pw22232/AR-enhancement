@@ -21,6 +21,9 @@
 		A74FE7392B09743000DE5A54 /* boxTest4.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A74FE7382B09743000DE5A54 /* boxTest4.rcproject */; };
 		A74FE73D2B09755800DE5A54 /* boxTest5.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A74FE73C2B09755800DE5A54 /* boxTest5.rcproject */; };
 		A74FE73F2B09784E00DE5A54 /* boxTest6.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A74FE73E2B09784E00DE5A54 /* boxTest6.rcproject */; };
+		A74FE7432B097B2200DE5A54 /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74FE7422B097B2200DE5A54 /* ARManager.swift */; };
+		A74FE7452B097B3600DE5A54 /* ARAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74FE7442B097B3600DE5A54 /* ARAction.swift */; };
+		A74FE7492B09801E00DE5A54 /* TeamIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74FE7482B09801E00DE5A54 /* TeamIntroduction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		A74FE7382B09743000DE5A54 /* boxTest4.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = boxTest4.rcproject; sourceTree = "<group>"; };
 		A74FE73C2B09755800DE5A54 /* boxTest5.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = boxTest5.rcproject; sourceTree = "<group>"; };
 		A74FE73E2B09784E00DE5A54 /* boxTest6.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = boxTest6.rcproject; sourceTree = "<group>"; };
+		A74FE7422B097B2200DE5A54 /* ARManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARManager.swift; sourceTree = "<group>"; };
+		A74FE7442B097B3600DE5A54 /* ARAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAction.swift; sourceTree = "<group>"; };
+		A74FE7482B09801E00DE5A54 /* TeamIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamIntroduction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +114,10 @@
 		A74FE6FD2B0953F400DE5A54 /* AREnhanced */ = {
 			isa = PBXGroup;
 			children = (
+				A74FE7482B09801E00DE5A54 /* TeamIntroduction.swift */,
+				A74FE7442B097B3600DE5A54 /* ARAction.swift */,
 				A74FE7302B0958E500DE5A54 /* ARViewRepresentable.swift */,
+				A74FE7422B097B2200DE5A54 /* ARManager.swift */,
 				A74FE72E2B09586E00DE5A54 /* ARView.swift */,
 				A74FE6FE2B0953F400DE5A54 /* AppDelegate.swift */,
 				A74FE7002B0953F400DE5A54 /* ContentView.swift */,
@@ -282,7 +291,10 @@
 				A74FE7392B09743000DE5A54 /* boxTest4.rcproject in Sources */,
 				A74FE73F2B09784E00DE5A54 /* boxTest6.rcproject in Sources */,
 				A74FE7312B0958E500DE5A54 /* ARViewRepresentable.swift in Sources */,
+				A74FE7452B097B3600DE5A54 /* ARAction.swift in Sources */,
+				A74FE7432B097B2200DE5A54 /* ARManager.swift in Sources */,
 				A74FE73D2B09755800DE5A54 /* boxTest5.rcproject in Sources */,
+				A74FE7492B09801E00DE5A54 /* TeamIntroduction.swift in Sources */,
 				A74FE7352B095C3800DE5A54 /* boxTest2.rcproject in Sources */,
 				A74FE7372B096EE800DE5A54 /* boxTest3.rcproject in Sources */,
 				A74FE7012B0953F400DE5A54 /* ContentView.swift in Sources */,
