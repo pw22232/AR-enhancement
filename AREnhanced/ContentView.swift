@@ -21,14 +21,21 @@ struct ContentView: View {
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(Color.black)
-                    
+    
                     Text("Technical Document Enhancer")
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color.gray)
                     
                     NavigationLink(destination: ARViewRepresentable()) {
-                        Text("Go to New Page")
+                        Text("Go to the Majic World")
+                            .padding()
+                            .background(Color.white)
+                            .foregroundColor(Color.black)
+                            .cornerRadius(8)
+                    }
+                    NavigationLink(destination: TeamRepresentable()) {
+                        Text("Developer introduction")
                             .padding()
                             .background(Color.white)
                             .foregroundColor(Color.black)

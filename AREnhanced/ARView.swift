@@ -14,6 +14,7 @@ class AIARView: ARView {
     required init(frame frameRect: CGRect) {
         super.init(frame: frameRect)
         placeBlock()
+        importRc()
     }
     
     required init?(coder decoder: NSCoder) {
@@ -48,13 +49,16 @@ class AIARView: ARView {
             newAnchor.addChild(newEntity)
             scene.addAnchor(newAnchor)
         }
-
-    
-
-        
-        
     }
+    func importRc(){
+        let Boxanchor = try! BoxTest6.load场景()
+        scene.anchors.append(Boxanchor)
+    }
+    
 }
+
+
+
 struct Interaction: Component {
     let gesture: UITapGestureRecognizer
 }
